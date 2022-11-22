@@ -3,6 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "crypto-js": "^4.1.1"
-  }
+    "crypto-js": "^4.1.1",
+    "express": "^4.18.2"
+  },
+  "description": "[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vanilla-js-playground-9ltxas)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wailwinphyo/3Des-encryption.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wailwinphyo/3Des-encryption/issues"
+  },
+  "homepage": "https://github.com/wailwinphyo/3Des-encryption#readme"
 }

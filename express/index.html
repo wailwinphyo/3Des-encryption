@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    pre {
+      white-space: pre-wrap;
+    }
+  </style>
+  
+  <h3>DECRYPT</h3>
+  <textarea id="input" rows="15" cols="100"></textarea>
+  <pre id="result"></pre>
+  
+  <h3>ENCRYPT</h3>
+  <textarea id="encInput" rows="15" cols="100"></textarea>
+  
+  <div style="width: 80%; overflow: auto">
+    <pre id="encResult"></pre>
+  </div>
+  
+  <hr />
+  
+  <h3>Generate Mock</h3>
+  <input type="text" id="mock-url" style="width: 700px" />
+  
+  <div style="width: 80%; overflow: auto">
+    <pre id="mockresult"></pre>
+  </div>
+  
+  <h3>Mock Verfication</h3>
+  
+  <pre id="mock-verification"></pre>
+  
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+<script src="index.js"></script>
+</html>
