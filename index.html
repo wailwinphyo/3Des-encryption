@@ -1,7 +1,29 @@
+<style>
+  pre {
+    white-space: pre-wrap;
+  }
+</style>
+
 <h3>DECRYPT</h3>
-<textarea id="input" rows="15" cols="40"></textarea>
+<textarea id="input" rows="15" cols="100"></textarea>
 <pre id="result"></pre>
 
 <h3>ENCRYPT</h3>
-<textarea id="encInput" rows="15" cols="40"></textarea>
-<pre id="encResult"></pre>
+<textarea id="encInput" rows="15" cols="100"></textarea>
+
+<div style="width: 80%; overflow: auto">
+  <pre id="encResult"></pre>
+</div>
+
+<hr />
+
+<h3>Generate Mock</h3>
+<input type="text" id="mock-url" style="width: 700px" />
+
+<div style="width: 80%; overflow: auto">
+  <pre id="mockresult"></pre>
+</div>
+
+<h3>Mock Verfication</h3>
+
+<pre id="mock-verification"></pre>
