@@ -14,7 +14,7 @@ app.use('/tools', function(req, res){
     res.sendFile(path.join(`${__dirname}/express/index.html`))
 });
 
-let randomguid = randomUUID();
+let randomguid = 'dfc3cd3b-766d-4dfc-9816-38621ca3cb1a';// randomUUID();
 console.log(randomguid);
 
 app.use(`/my_paste_bin/${randomguid}`, function(req, res){
